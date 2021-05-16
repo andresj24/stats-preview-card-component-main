@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background: hsl(233, 47%, 7%);
+    font-size: 1.5rem;
+}
+img {
+    max-width: 100%;
+}
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+h1 span {
+    color: hsl(277, 64%, 61%);
+}
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+} 
+p span {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.container {
+    border: 2px solid #ffffff; 
+    max-width: 120rem;
+    min-height: 95vh;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+    }
+.imagen {
+    
+    align-items: center;
+    flex: 0 0 40%;
+}
+}
+.info {
+    
+    background-color: blueviolet;
+    flex: 0 0 60%;
+}
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
