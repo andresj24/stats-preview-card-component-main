@@ -4,15 +4,11 @@ html {
 }
 *, *:before, *:after {
     box-sizing: inherit;
+    outline: 1px solid whitesmoke;
 }
 body {
     background: hsl(233, 47%, 7%);
     font-size: 1.5rem;
-}
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 h1 {
     font-family: 'Lexend Deca', sans-serif;
@@ -31,66 +27,31 @@ p span {
     font-weight: 700;
     color: hsl(0, 0%, 100%);
 }
-
 .container {
-    max-width: 120rem;
-    display: flex;
-    flex-direction: row;
-    margin: 1.5rem 1rem 2.5rem;
-}
-@media (min-width: 768px) {
-    .container {
-        max-width: 120rem;
-        flex-direction: row-reverse;
-        margin: 10.5rem auto 4.5rem;
-        justify-content: none;
-    }
-}
-.order {
+    width: 100%;
+    height: 95vh;
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    justify-content: center;
 }
-@media (min-width: 768px) {
-    .order {
-        display: flex;
-        flex-direction: row-reverse;
-        flex: 1;
-    }
+.image {
+    
+    width: 100%;
+    background-color: hsl(277, 64%, 61%);
 }
-
-.order .info,
-.order .imagen {
-    width: 100%;   
-    height: 100%;
+.image img {
+    max-width: 100%;
+    flex-basis: 33.3%;
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+    
 }
 .info {
     background-color: hsl(244, 38%, 16%);
-    padding: 2rem 2.3rem;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-  }
-.imagen img {
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
 }
-.cap {
-    position: relative;
-}
-.cap::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: hsl(277, 75%, 29%);
-    opacity: 0.7;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-.info h1 {
-    text-align: center;
-}
-
 
 
 
