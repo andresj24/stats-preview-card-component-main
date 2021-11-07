@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![images/capture.jpg](https://github.com/andresj24/stats-preview-card-component-main/blob/master/images/capture.jpeg)
+![images/captura.jpg](https://github.com/andresj24/stats-preview-card-component-main/blob/master/images/captura.jpeg)
 
 ### Links
 
