@@ -99,8 +99,11 @@ p span {
 }
 
 @media (max-width: 1024px) {
+    html {
+        font-size: 55%;
+    }
     .container {
-        width: 768px;
+        width: 600px;
         min-width: 320px;
         flex-direction: column;
         gap: 0;
@@ -108,16 +111,27 @@ p span {
         padding: 1rem 3rem;
     }
     .info {
-        max-width: 768px;
+        max-width: 600px;
         width: auto;
         padding: 8rem 10rem 4rem 7rem;
         text-align: center;
         border-radius: 0 0 1rem 1rem;
     }
     .image {
-        width: 768px;
+        width: 600px;
         margin: 0;
+        background-size: contain;
         border-radius: 1rem 1rem 0 0;
+    }
+    .info {
+        padding: 5rem 4rem 4rem 4rem;
+        line-height: 2;
+    }
+    .info h1 {
+        line-height: 1.5;
+    }
+    .info .text {
+        font-size: 1.6rem;
     }
     .stats {
         flex-direction: column;
@@ -139,15 +153,5 @@ p span {
     }
     .image {
         height: 30rem;
-    }
-    .info {
-        padding: 5rem 4rem 4rem 4rem;
-        line-height: 2;
-    }
-    .info h1 {
-        line-height: 1.5;
-    }
-    .info .text {
-        font-size: 1.6rem;
     }
 }
