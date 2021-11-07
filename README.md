@@ -53,6 +53,6 @@ Soon I will continue to practice the use of CSS and the different tools to layou
 
 ## Author
 
-- Frontend Mentor - [https://www.frontendmentor.io/profile/andresj24]
-- Twitter - [https://twitter.com/AndresitoJ96]
+- Frontend Mentor - [@andresj24](https://www.frontendmentor.io/profile/andresj24)
+- Twitter - [@AndresitoJ96](https://twitter.com/AndresitoJ96)
 
