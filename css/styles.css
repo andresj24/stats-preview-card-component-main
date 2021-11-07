@@ -89,10 +89,12 @@ p span {
     font-size: 1.85rem;
 }
 .attribution { 
+    margin: 0 auto;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color:hsl(0, 0%, 100%);
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -149,7 +151,7 @@ p span {
         font-size: 55%;
     }
     .container {
-        min-width: 375px;
+        min-width: 320px;
     }
     .image {
         height: 30rem;
