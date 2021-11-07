@@ -69,8 +69,6 @@ p span {
     height: 100%;
     mix-blend-mode: multiply;
     opacity: 0.75;
-    border-bottom-right-radius: 1rem;
-    border-top-right-radius: 1rem;
 }
 .stats {
     display: flex;
@@ -111,7 +109,7 @@ p span {
         min-width: 320px;
         flex-direction: column;
         gap: 0;
-        margin: 3rem auto;
+        margin: 0 auto;
         padding: 1rem 3rem;
     }
     .info {
@@ -153,7 +151,7 @@ p span {
         font-size: 55%;
     }
     .container {
-        min-width: 320px;
+        min-width: 300px;
     }
     .image {
         height: 30rem;
