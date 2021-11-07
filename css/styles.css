@@ -69,6 +69,8 @@ p span {
     height: 100%;
     mix-blend-mode: multiply;
     opacity: 0.75;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 .stats {
     display: flex;
