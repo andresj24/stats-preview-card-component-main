@@ -41,6 +41,7 @@ p span {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 .info {
     background-color: hsl(244, 38%, 16%);
